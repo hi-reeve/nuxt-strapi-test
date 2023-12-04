@@ -100,12 +100,10 @@ const onAddPinpoint = async () => {
     >
         <l-map
             ref="map"
-            :center="[0.7, 115]"
+            :center="[0.7893, 113.9213]"
             :zoom="5"
             :options="{
-                zoomControl: false,
-                scrollWheelZoom: false,
-                attributionControl: '',
+                attributionControl: false,
             }"
         >
             <l-marker
@@ -142,9 +140,10 @@ const onAddPinpoint = async () => {
             </l-marker>
             <l-tile-layer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                layer-type="base"
-                name="OpenStreetMap"
             ></l-tile-layer>
+            <l-control-attribution
+                prefix="<a target='_blank' href='https://leafletjs.com'>Leaflet</a> | &copy; <a target='_blank' href='http://osm.org/copyright'>OpenStreetMap</a> contributors"
+            />
         </l-map>
     </div>
 </template>
