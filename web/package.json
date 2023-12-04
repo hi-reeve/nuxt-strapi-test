@@ -1,0 +1,25 @@
+{
+    "name": "nuxt-app",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare",
+        "generate:types": "node generateTypes.cjs"
+    },
+    "devDependencies": {
+        "@nuxt/devtools": "latest",
+        "@nuxt/image": "^1.1.0",
+        "@nuxtjs/i18n": "8.0.0-rc.6",
+        "@strapi/strapi": "^4.15.5",
+        "nuxt": "^3.8.2",
+        "vue": "^3.3.8",
+        "vue-router": "^4.2.5"
+    },
+    "dependencies": {
+        "@nuxt-alt/proxy": "2.3.2"
+    }
+}
