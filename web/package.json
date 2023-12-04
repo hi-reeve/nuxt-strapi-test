@@ -16,10 +16,11 @@
         "@nuxtjs/i18n": "8.0.0-rc.6",
         "@strapi/strapi": "^4.15.5",
         "nuxt": "^3.8.2",
+        "nuxt3-leaflet": "^1.0.12",
         "vue": "^3.3.8",
         "vue-router": "^4.2.5"
     },
     "dependencies": {
-        "@nuxt-alt/proxy": "2.3.2"
+        "@nuxt-alt/proxy": "^2.4.7"
     }
 }

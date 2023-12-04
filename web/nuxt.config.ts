@@ -2,7 +2,12 @@
 import { createResolver } from "@nuxt/kit";
 const { resolve } = createResolver(import.meta.url);
 export default defineNuxtConfig({
-    modules: ["@nuxt-alt/proxy", "@nuxtjs/i18n", "@nuxt/image"],
+    modules: [
+        "@nuxt-alt/proxy",
+        "@nuxtjs/i18n",
+        "@nuxt/image",
+        "nuxt3-leaflet",
+    ],
     devtools: { enabled: true },
     runtimeConfig: {
         public: {
